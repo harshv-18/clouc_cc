@@ -1,1 +1,41 @@
 hello
+************************************************************
+//Create a folder in d drive and copy path
+>cd path
+>git init
+//Create a text file in the folder and copy path
+>git add path
+>git commit -m "first commit"
+>git remote add origin git_repository_path
+>git push -u origin master
+>git pull origin master
+>git fetch --all
+>git branch
+>git branch a1
+>git branch -d a1   (delete a branch)
+>git checkout -b m1
+>git fetch --all
+Git reset —soft
+git log
+************************************************************
+D:
+cd <directory-name>
+git clone https://github.com/ashworks-png/cca-lab1.git
+git status
+git add .  # OR git add sample.txt
+git commit -m "initial commit"
+git push origin main
+git fetch origin
+git pull origin main
+git branch a1
+git branch
+git branch -M a1
+git checkout -b a2
+git checkout a1  # to switch branches
+git reset --soft a1
+git branch -d a1  # to delete a1 branch
+git rm <file-name>  # to delete a file from repo
+
+************************************************************
+//communication between host and guest
+sudo adduser Bnmit vboxsf
